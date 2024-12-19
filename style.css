@@ -1,0 +1,158 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.maincontainer {
+    max-width: 1480px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0% auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+}
+
+.icons {
+    display: flex;
+    gap: 45px;
+}
+
+.contant2 {
+    background-image: url(./images/scandinavian-interior-mockup-wall-decal-background\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.box {
+    padding: 153px 0 170px 739px;
+}
+
+.box1 {
+    background-color: #FFF3E3;
+    padding: 62px 43px 37px 39px;
+    max-width: 643px;
+    width: 100%;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 3px;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 4px;
+}
+
+.text1 {
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    color: #B88E2F;
+    padding-bottom: 17px;
+}
+
+.text2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 46px;
+}
+
+.buy-button {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #B88E2F;
+    border: none;
+    padding: 25px 72px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 56px;
+}
+
+.head-text {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #333333;
+}
+
+.head-text1 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #666666;
+}
+
+.places {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding-top: 62px;
+    text-align: center;
+}
+
+.places-name {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: center;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.page1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 32px;
+    margin-top: 56px;
+    justify-content: center;
+    align-items: center;
+}
+.Featured-Products-text{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 20px 30px 16px;
+}
+.show-button{
+    padding: 12px 74px 12px 82px;
+    border: 1px solid #B88E2F;
+align-items: center;
+}
