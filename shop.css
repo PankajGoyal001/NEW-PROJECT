@@ -1,0 +1,47 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.maincontainer {
+    max-width: 1480px;
+    width: 100%;
+    padding: 0 20px;
+    margin: 0% auto;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 75px;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #000;
+}
+
+.icons {
+    display: flex;
+    gap: 45px;
+}
+.contant{
+    background-image: url("./shop-image/Rectangle\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
