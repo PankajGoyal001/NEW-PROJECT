@@ -222,26 +222,141 @@ color: #B0B0B0;
     width: 392px;
     height: 90px;
     text-align: center;
+    align-items: end;
 }
-.button-text{
-    font-family: Poppins;
+.button-text1{
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
-    text-align: end;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-padding: 15px 26px ;    
-width: 60px;
-height: 60px;
-
+    padding: 15px 26px ;  
+    background-color:#B88E2F;
+    border-radius: 10px;  
+}
+.button-text{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 15px 26px ;  
+    background-color: #F9F1E7;
+    border-radius: 10px;  
+    max-width: 92px;
+    width: 100%;
 }
 
+/*  */
+.contant3{
+    background-color: #FAF3EA;
+}
+.Feature{
+    margin-top: 85px;
+    display: flex;
+    /* gap: 55px; */
+    padding: 100px 0;
+    justify-content: space-between;
+}
+.feature-details{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.feature-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    max-width: 267px;
+    width: 100%;
+}
+.text{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    text-align: left;
+    color: #242424;    
+    text-wrap: nowrap;
+}
+.text1{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: left;
+    color: #898989;    
+    text-wrap: nowrap;
+}
 
+/*  */
+.footer{
+    margin-top: 48px;    
+    display: flex;
+    gap: 136px;
+    justify-content: space-between;
+}
+.funiro{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    max-width: 285px;
+    width: 100%;
+}
+.text-funiro{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+    color: #000;    
+}
+.text1-funiro{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #9F9F9F;    
+}
+.footer-head{
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+.funiro-text{
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    
+}
+.funiro-text a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    color: #000;
+    text-decoration: none;
+}
+.Email{
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+    color: #9F9F9F;    
+    border-bottom: 1px solid#000;
+}
+.funiro-text1{
+    display: flex;
+    gap: 11px;
+}
 
-
-
-
+/*  */
+.main-footer{
+margin-top: 48px;
+}
+.main-footer-text{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #000;  
+    border-top: 1px solid #D9D9D9;     
+    padding-top: 35px; 
+}
 
 
 
