@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+</head>
+<style>
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Poppins", serif;
+    }
+
+    .maincontainer {
+        max-width: 390px;
+        width: 100%;
+        padding: 0 20px;
+        margin: 0% auto;
+    }
+
+    .cart-heading {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #D9D9D9;
+        padding: 28px 0 26px 0;
+    }
+
+    .cart-head {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 36px;
+        text-align: left;
+        color: #000;
+    }
+
+    .sofa-set {
+        display: flex;
+        gap: 32px;
+        margin-top: 42px;
+        align-items: center;
+    }
+
+    .quantity {
+        display: flex;
+        gap: 15px;
+        padding-top: 11px;
+        align-items: center;
+    }
+
+    .price {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 18px;
+        text-align: left;
+        color: #B88E2F;
+        text-wrap: nowrap;
+    }
+
+    .price-text {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #B88E2F;
+        text-wrap: nowrap;
+    }
+
+    .sofa {
+        display: flex;
+        gap: 60px;
+    }
+
+    .sofa1 {
+        display: flex;
+        gap: 54px;
+    }
+
+    .total-price {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 253px;
+    }
+
+    /*  */
+    .contant {
+        border-top: 1px solid #D9D9D9;
+        margin-top: 23px;
+    }
+
+    .footer {
+        display: flex;
+        gap: 14px;
+        padding: 26px 0 28px 0;
+        justify-content: center;
+    }
+
+    .footer-text {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        padding: 6px 30px;
+        border: 1px solid;
+        border-radius: 50px;
+    }
+</style>
+
+<body>
+    <div class="maincontainer">
+        <div class="cart-heading">
+            <p class="cart-head">Shopping Cart</p>
+            <img src="./cart-images/cart.svg" alt="cart-icon">
+        </div>
+        <div class="sofa-set">
+
+            <img src="./cart-images/sofa-set2.svg" alt="sofa-set2">
+
+            <div class="sofa1">
+                <div class="sofa-detail">
+                    <p class="sofa-name">Asgaard sofa</p>
+                    <div class="quantity">
+                        <p class="sofa-name">1</p>
+                        <p>X</p>
+                        <p class="price">Rs. 250,000.00</p>
+                    </div>
+                </div>
+                <img src="./cart-images/cancle-button.svg" alt="cancle-button">
+            </div>
+        </div>
+
+        <div class="sofa-set">
+            <img src="./cart-images/sofa-set2.svg" alt="sofa-set2">
+            <div class="sofa1">
+                <div class="sofa-detail">
+                    <p class="sofa-name">Casaliving Wood</p>
+                    <div class="quantity">
+                        <p class="sofa-name">1</p>
+                        <p>X</p>
+                        <p class="price">Rs. 270,000.00</p>
+                    </div>
+                </div>
+                <img src="./cart-images/cancle-button.svg" alt="cancle-button">
+            </div>
+        </div>
+
+        <div class="total-price">
+            <p class="sofa-name">Subtotal</p>
+            <p class="price-text">Rs. 520,000.00</p>
+        </div>
+
+
+        <div class="contant">
+            <div class="maincontainer">
+                <div class="footer">
+                    <p class="footer-text">Cart</p>
+                    <p class="footer-text">Checkout</p>
+                    <p class="footer-text">Comparison</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
